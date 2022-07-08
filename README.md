@@ -1,28 +1,23 @@
-```html
-    <p> Desenvolvimento WEB </p>
+# Desenvolvimento WEB
 
-    <p> Repositorio que guardará meus codigos desenvolvidos através de materiais de estudo. </p>
-    
-    ------
+## Repositorio que guardará meus codigos desenvolvidos através de materiais de estudo.
+------
+### BackEnd 
 
-    <p> BackEnd </p> 
+> Estudando PHP
 
-    <p> Estudando PHP </p>
+> Estudando NODE
 
-    <p> Estudando NODE </p>
+------
 
-    ------
+### FrontEnd 
 
-    <p> FrontEnd </p>
+> Projeto [fakebook](/frontEnd/fakebook/) feito com HTML e CSS. ### Resultado [ [max1000px](/frontEnd/view/fakebook1.png {width=400px}) / [min1000px](/frontEnd/view/fakebook2.png) {width=400px}]
 
-    <p> Projeto fakebook feito com HTML e CSS. </p>
+<p align="center"><img src="/frontEnd/view/fakebook1.png" width="400"></p>
 
+> Projeto [FatecMM](/frontEnd/fatecmm/) feito com HTML e CSS. ### [ Resultado ](/frontEnd/view/FatecMM.png {width=400px})
 
-    <p> Projeto FatecMM feito com HTML e CSS.</p>
+> Projeto [cadastro](/frontEnd/cadastro/) feito com HTML, CSS e Javascript. ### [ Resultado ](/frontEnd/view/cadastro.png {width=400px})
 
-
-    <p> Projeto cadastro feito com HTML, CSS e Javascript. </p>
-
-
-    <p> Projetos com [REACT]</p>
-```
+> Projetos com [REACT](/frontEnd/studing/testeReact/).
