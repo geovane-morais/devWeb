@@ -4,9 +4,9 @@
 ------
 ### BackEnd 
 
-- Estudando [PHP] (/backEnd/nodejs)
+- Estudando [PHP] (/backEnd/nodejs/)
 
-- Estudando [NODE] (/backEnd/php)
+- Estudando [NODE] (/backEnd/php/)
 
 ------
 
