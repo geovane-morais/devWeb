@@ -1,0 +1,61 @@
+html{
+  background-color: rgb(196, 52, 52);
+  padding:0px 20px 0px 20px;
+}
+
+.Page{
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 400px auto;
+  grid-template-rows: 200px auto auto;
+  grid-template-areas:
+    "HeaderGrid        HeaderGrid"
+    "technicalInfGrid  headlineGrid"
+    "FooterGrid        FooterGrid"
+}
+
+.Header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: HeaderGrid;
+  padding-bottom: 40px;
+}
+
+.technicalInf{
+  grid-area: technicalInfGrid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headline{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  margin-left: 20px;
+  grid-area: headlineGrid;
+}
+
+.headline>div>div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+.Footer{
+  grid-area: FooterGrid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Footer>div>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.Page-web {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns:100%;
+    grid-template-rows: 110px 40px auto 180px 40px;
+    grid-template-areas:
+      "header1"
+      "header2"
+      "main"
+      "footer1 "
+      "footer2 ";
+}
+
+
+.header1-page {
+    grid-area: header1;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 10px 20px 10px 20px ;
+  }
+.header1-page>div {
+    width: 100px;
+    background-color: white;
+}
+.header2-page {
+    grid-area: header2;
+    display: flex;
+    align-items: center;
+    background-color: red;
+  }
+.header2-page>div {
+    margin-left: 10px;
+}
+.header2-page>div>a{
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    font-family: arial;
+    font-weight:bold;
+    font-size: 16px;
+    color: white;
+}
+
+
+.main-page {
+    grid-area: main;
+    background-color: gray;
+}
+.main-page>div {
+    border: solid 1px black;
+    box-shadow: 0px 2px 15px rgb(19, 19, 19);
+    border-radius: 30px;
+    background-color: white;
+    width: 1000px;
+    margin: 20px auto 20px auto;
+}
+.main-page>div>div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 20px 20px;
+}
+.main-page>div>div>* {
+    margin-top: 25px;
+}
+.main-page>div>div>h1 {
+    margin-top: 0px;
+}
+.video-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-end{
+    display: flex;
+    justify-content: space-around;
+}
+.main-end>div{
+    text-align: center;
+}
+.main-end>div>p{
+    margin-top:15px
+}
+.main-end>div>h1{
+    font-size:17px
+}
+
+
+.footer1-page{
+    grid-area: footer1;
+    background-color: red;
+}
+.footer1-page>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 30px auto 30px;
+    height: 100%;
+}
+.footer1-page>div>div>div {
+    margin-top:20px;
+}
+.footer1-page>div>div>div>div {
+    display:flex;
+    justify-content: flex-start;
+}
+.footer1-page>div>div>a>img {
+    max-width: 500px;
+}
+.bold-word{
+    font-weight: bold;
+}
+
+
+
+.footer2-page {
+    grid-area: footer2;
+    background-color: grey;
+}
+.footer2-page>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16;
+    height: 100%;
+    color: white;
+}
+  

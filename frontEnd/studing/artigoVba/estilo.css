@@ -1,0 +1,26 @@
+
+body
+{
+    background-color: rgb(85, 85, 85);
+}
+
+.page
+{
+    background-color: white;
+    width: 210mm;
+    height: 297mm;
+}
+
+.fmt1
+{
+    font-family:arial;
+    color : black;
+    text-align: center;
+    font-size: 16px;
+}
+
+p
+{
+    line-height: 1.5;
+    margin-left: 30px;
+}

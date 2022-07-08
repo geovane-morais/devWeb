@@ -1,0 +1,16 @@
+body, html{
+    padding: 0px;
+    margin: 10px;
+}
+
+.page>img{
+    width: 50px;
+}
+.cars>img{
+    min-width: 10%;
+    max-width: 24%;
+    width: 10%;
+    height: 10%;
+    padding: 0px;
+    margin: 0px;
+}

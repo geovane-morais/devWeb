@@ -1,0 +1,8 @@
+{
+    "SISTEMA":{
+        "name": "Ubuntu",
+        "cpu": "Xeon-e5",
+        "memory": "24gb",
+        "storage": "10TB"
+    }
+}

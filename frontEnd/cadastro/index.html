@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulário de cadastro</title>
+</head>
+
+<body>
+    <h1>Dados de login e senha</h1>
+
+    <div class="login_senha">
+
+        <div class="login">
+            <label for="txtEmail">* E-mail: </label>
+            <input type="email" id="txtEmail" class="obrigatorio">
+            <br>
+            <label for="txtConfirmarEmail">* Repetir e-mail: </label>
+            <input type="email" id="txtConfirmarEmail" class="obrigatorio">
+        </div>
+        <div class="senha">
+            <label for="txtSenha">* Crie uma senha: </label>
+            <input type="password" id="txtSenha" class="obrigatorio">
+            <br>
+            <label for="txtConfirmarSenha">* Repetir senha: </label>
+            <input type="password" id="txtConfirmarSenha" class="obrigatorio">
+        </div>
+    </div>
+
+    <div class="meio">
+        <div class="dados_cadastrais">
+            <h1>Dados cadastrais</h1><br>
+            <label for="txtNome">* Nome: </label>
+            <input type="text" id="txtNome" class="obrigatorio">
+            <br>
+            <label for="txtSobrenome">* Sobrenome: </label>
+            <input type="text" id="txtSobrenome" class="obrigatorio">
+            <br>
+            <label for="comboSexo">* Sexo:</label>
+            <select id="comboSexo" class="obrigatorio">
+                <option value="">Selecione</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Outro">Outro</option>
+            </select>
+            <br>
+            <label for="txtCPF">* CPF: </label>
+            <input type="text" inputmode="numeric" id="txtCPF" title="Digite um CPF (somente números)"
+            maxlength="11" class="obrigatorio">
+            <br>
+            <label for="txtTelefone">Telefone: </label>
+            <input type="tel" id="txtTelefone" title="Digite um número de telefone (somente números)" class="naoObrigatorio">
+            <br>
+            <label for="txtCelular">* Celular: </label>
+            <input type="tel" id="txtCelular" title="Digite um número de celular (somente números)" class="obrigatorio">
+            <br>
+            <label for="txtDataNascimento">* Data de nascimento: </label>
+            <input type="date" id="txtDataNascimento" class="obrigatorio">
+            <br>
+            <input type="checkbox" id="receberInfo">
+            <label for="receberInfo" id="lblReceberInfo" class="labelCheckbox">Receber ofertas e novidades por email</label>
+        </div>
+
+        <div class="endereco_entrega">
+            <h1>Endereço de entrega</h1><br>
+            <label for="txtCEP">* CEP: </label>
+            <input type="text" inputmode="numeric" id="txtCEP" maxlength="8" title="Digite um CEP (somente números)"class="obrigatorio">
+            <br>
+            <label for="txtLogradouro">* Logradouro: </label>
+            <input type="text" id="txtLogradouro" class="obrigatorio">
+            <br>
+            <label for="txtNumero" >* Número: </label>
+            <input type="text" inputmode="numeric" id="txtNumero" class="obrigatorio">
+            <br>
+            <input type="checkbox" id="semNumero">
+            <label for="semNumero" class="labelCheckbox" id="lblSemNumero">Sem número</label>
+            <br>
+            <label for="txtComplemento">Complemento: </label>
+            <input type="text" id="txtComplemento" class="naoObrigatorio">
+            <br>
+            <label for="txtReferencia">Referência: </label>
+            <input type="text" id="txtReferencia" class="naoObrigatorio">
+            <br>
+            <label for="txtBairro">* Bairro: </label>
+            <input type="text" id="txtBairro" class="obrigatorio">
+            <br>
+            <label for="txtCidade">* Cidade: </label>
+            <input type="text" id="txtCidade" class="obrigatorio">
+            <br>
+            <label for="comboEstado">* Estado: </label>
+            <select id="comboEstado" name="estado" class="obrigatorio">
+                <option value="">Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <br>
+        <p>Todos os campos com asterisco são obrigatórios</p>
+        <button id="btnCadastrar">Cadastrar</button>
+    </div>
+    
+    <div id="confirmarDadosUsuario">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

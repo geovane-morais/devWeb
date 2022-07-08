@@ -1,0 +1,10 @@
+.Header {
+    grid-area: Header1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 2, 200);
+    color: white;
+    font-weight:bold;
+    
+  }

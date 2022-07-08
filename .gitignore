@@ -1,0 +1,5 @@
+# Ignora arquivos node_modules
+node_modules
+
+# Ignora todos os arquivos txt
+*.txt
