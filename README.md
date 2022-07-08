@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-</head>
-
-<body>
+```html
     <p> Desenvolvimento WEB </p>
 
     <p> Repositorio que guardará meus codigos desenvolvidos através de materiais de estudo. </p>
     
     ------
-    
+
     <p> BackEnd </p> 
 
     <p> Estudando PHP </p>
@@ -31,7 +25,4 @@
 
 
     <p> Projetos com [REACT]</p>
-
-</body>
-
-</html>
+```
