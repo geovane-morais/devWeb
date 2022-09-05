@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "teste function get",
+  "main": "./src/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geovane Morais",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
