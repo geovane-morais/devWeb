@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aad30965-8418-415a-8152-bd8888ab842a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../jwt/app/src/main/java/web/api/app/security/jwt/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../app.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/project1/Project1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/project1/Project1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/app/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/app/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/app/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/app/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/app/src/main/java/web/api/app/AppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/app/src/main/java/web/api/app/domain/entity/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/app/src/main/java/web/api/app/domain/repositorio/Clientes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/app/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/app/src/main/resources/meu_schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springData/app/src/test/java/web/api/app/AppApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../rest/restController/app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/AppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/AppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/entity/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/entity/itemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/entity/itemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/repository/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/repository/Clientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/repository/Pedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/repository/Pedidos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/repository/Produtos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/repository/Produtos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/repository/itemPedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/domain/repository/itemPedidos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/rest/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../rest/restController/app/src/main/java/web/api/app/rest/controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/app/src/main/resources/meu_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../rest/restController/app/src/main/resources/meu_schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/AppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/domain/entity/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/domain/entity/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/domain/entity/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/domain/entity/itemPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/domain/repository/Clientes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/domain/repository/Pedidos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/domain/repository/Produtos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/domain/repository/itemPedidos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/exception/RegraNegocioException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/exception/RestControllerAdivice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/rest/controller/ClienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/rest/controller/PedidosController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/rest/controller/ProdutoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/rest/dto/PedidoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/rest/dto/informacaoItemPedidoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/rest/dto/informacoesPedidoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/rest/dto/itemPedidoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/rest/dto/responseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/service/PedidoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/java/web/api/app/service/impl/PedidoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/main/resources/meu_schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rest/restController/controller/app/src/test/java/web/api/app/AppApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2EBt0RcFjc4Lb5LGFeSXV3L4v8N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/geovane/github/web/backEnd/java/spring/database/helloWord/pom.xml",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aad30965-8418-415a-8152-bd8888ab842a" name="Changes" comment="" />
+      <created>1662080590361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662080590361</updated>
+    </task>
+    <servers />
+  </component>
+</project>
