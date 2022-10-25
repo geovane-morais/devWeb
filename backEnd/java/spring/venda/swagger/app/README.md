@@ -17,3 +17,6 @@
 - JWT
 
 - SWAGGER
+
+<p align="center"><img src="../../assets/project.jpeg" width="1200"></p>
+
