@@ -18,5 +18,5 @@
 
 - SWAGGER
 
-<p align="center"><img src="./backEnd/java/spring/venda/assets/project.png" width="1200"></p>
+<p align="center"><img src="/../../assets/project.png" width="1200"></p>
 
